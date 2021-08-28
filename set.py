@@ -1,0 +1,11 @@
+x={'Python',450,66.7,"django"}
+print("SET:",x)
+x.add(6589)
+x.add("hello")
+print("SET",x)
+x.update([4,6,8])
+print("SET",x)
+x.discard(450)
+print("SET:",x)
+x.remove("django")
+print("SET:",x)
